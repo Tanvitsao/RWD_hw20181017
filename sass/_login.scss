@@ -1,0 +1,62 @@
+.login {
+	max-width: 100%;
+	background-color: $background-color-light;
+	text-align: center;
+	h3 {
+	font-size: $font-m;
+	color: $color-dark;
+	}
+	h4 {
+	font-size: 18px;
+	color: $color-dark;
+	}
+	form {
+	width: 300px;
+	box-shadow: 5px 5px 5px #CDCDCD;
+	border-top: 3px solid #FF5E45;
+	margin: 0 auto;
+	position: relative;
+	line-height: 1.5;
+	position: relative;
+	}
+	label {
+	position: absolute;
+	left: 0;
+	padding-left: $font-s;
+	}
+	a {
+	text-decoration: none;
+	color: #FF5E45;
+	position: absolute;
+	left: 0;
+	padding-left: $font-s;
+	}
+}
+
+.login-title {
+	width: 240px;
+	padding-top: 50px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+.login .input {
+	width: 270px;
+}
+
+.login .button {
+	position: relative;
+	right: 0;
+	padding-bottom: 15px;
+	margin-top: 60px;
+}
+
+.login .pure-button-cancel {
+	width: 125px;
+	height: 32px;
+}
+
+.login .pure-button-submit {
+	width: 125px;
+	height: 32px;
+}

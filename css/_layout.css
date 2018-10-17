@@ -1,0 +1,125 @@
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: MicrosoftJhengHeiRegular; }
+
+.header {
+  max-width: 1024px;
+  height: 420px;
+  text-align: center;
+  background-image: url(../images/header_desktop.png); }
+
+.top {
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 56px; }
+
+.logo {
+  float: left;
+  padding-left: 42px;
+  padding-top: 16px; }
+  .logo h1 a {
+    display: block;
+    background-image: url(../images/logo_w.svg);
+    width: 120px;
+    height: 24px;
+    background-size: contain;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap; }
+
+.menu {
+  float: right;
+  margin: auto auto; }
+  .menu li {
+    float: left; }
+  .menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    width: 80px;
+    height: 56px;
+    line-height: 56px; }
+  .menu a:hover {
+    background-color: #efe9e7;
+    color: #000; }
+
+.showmenu {
+  display: none; }
+
+.clearfix {
+  clear: both; }
+
+.title {
+  max-width: 460px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 20px 20px 26px 20px;
+  margin: 67px auto; }
+  .title h2 {
+    font-size: 36px;
+    padding-bottom: 16px; }
+
+.footer {
+  color: #3D1101;
+  background-color: #efe9e7; }
+  .footer h3 {
+    font-size: 24px;
+    margin-bottom: 20px; }
+
+.about, .contact {
+  float: left;
+  max-width: 30%;
+  margin-top: 50px;
+  margin-left: 21px;
+  margin-bottom: 30px; }
+
+.logo-info {
+  float: right;
+  margin-top: 50px;
+  margin-right: 42px;
+  position: relative; }
+  .logo-info ul {
+    position: absolute;
+    right: 0px; }
+  .logo-info li {
+    float: left;
+    width: 36px;
+    padding-left: 10px;
+    padding-top: 22px; }
+
+@media (max-width: 767px) {
+  .header {
+    background-image: url(../images/Bitmap.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000; }
+  .about {
+    display: none; }
+  .logo-info {
+    padding-bottom: 60px; }
+  .showmenu {
+    display: block;
+    float: right;
+    margin: 1em; }
+  .menu {
+    max-height: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    background: #000;
+    z-index: 100;
+    -webkit-transition: max-height 0.5s;
+    -o-transition: max-height 0.5s;
+    transition: max-height 0.5s; }
+    .menu a {
+      width: 100%; }
+    .menu li {
+      float: none; }
+  .menu-show .menu {
+    max-height: 168px; } }
+
+@media (max-width: 414px) {
+  .title h2 {
+    font-size: 28px; } }
